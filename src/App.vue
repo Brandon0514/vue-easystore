@@ -6,6 +6,8 @@
     <v-main>
       <!-- Landing section -->
       <LandingComponent />
+      <!-- Elevate -->
+      <Elevate />
       
     </v-main>
 
@@ -15,13 +17,15 @@
 <script>
 import Header from './components/Header';
 import LandingComponent from './components/LandingComponent';
+import Elevate from './components/Elevate';
 
 export default {
   name: 'App',
 
   components: {
     Header,
-    LandingComponent
+    LandingComponent,
+    Elevate
   },
 
 };

@@ -69,7 +69,7 @@ export default {
             case 'xs': return false
             case 'sm': return false
             case 'md': return false
-            case 'lg': return false
+            case 'lg': return true
             case 'xl': return true
             default: return false
         }
