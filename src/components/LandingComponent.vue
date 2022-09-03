@@ -1,6 +1,6 @@
 <template>
 <div class="mobile_download_section">
-  <v-container class="pt-15">
+  <v-container class="pt-15" :style="{ ...styleComputed }">
     <v-row>
 
       <!-- left side -->
@@ -45,6 +45,26 @@
 
 export default {
     name: 'LandingComponent', 
+
+    mounted () {
+      console.log(this.$vuetify.breakpoint.name)
+    },
+    computed: {
+      isMini() {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return false
+            case 'sm': return false
+            case 'md': return false
+            case 'lg': return true
+            case 'xl': return true
+            default: return false
+        }
+      },
+      styleComputed() {
+        return this.isMini ? {'height': '820px'} : {} ;
+      }
+    },
+
 
     data() {
       return{
