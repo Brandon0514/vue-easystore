@@ -1,10 +1,9 @@
 <template>
 
-<v-container class="my-16">
+<v-container style="margin-top: 150px; margin-bottom: 100px;">
   <v-row justify="center">
     <v-col lg="12" class="text-center">
       <v-subheader class="text-h4 justify-center">{{elevate_title}}</v-subheader>
-      
 
       <v-container
         class="bg-surface-variant mb-6"
@@ -12,7 +11,6 @@
         <v-row
           align="center"
           no-gutters
-          style="height: 150px;"
         >
           <v-col v-for="(elevate_item, index) in elevate_list" :key="index">
             <v-sheet class="pa-2 ma-2">
@@ -27,14 +25,6 @@
           </v-col>
         </v-row>
       </v-container>
-
-      <!-- <v-col lg="3" v-for="(elevate_item, index) in elevate_list" :key="index">
-        <v-card>
-          <v-img :src="elevate_item.image" height="200px"></v-img>
-          <v-card-title> {{elevate_item.title}}</v-card-title>
-          <v-card-subtitle>{{elevate_item.description}}</v-card-subtitle>
-        </v-card>
-      </v-col> -->
 
     </v-col>
   </v-row>
