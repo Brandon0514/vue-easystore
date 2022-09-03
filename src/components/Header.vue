@@ -47,9 +47,6 @@
 export default {
     name: 'Header', 
 
-    mounted () {
-      console.log(this.$vuetify.breakpoint.name)
-    },
     data() {
       return{
         menus:[

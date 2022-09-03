@@ -46,9 +46,15 @@
 export default {
     name: 'LandingComponent', 
 
-    mounted () {
-      console.log(this.$vuetify.breakpoint.name)
+    data() {
+      return{
+        title: "Convert your store into a mobile app",
+        description: "Shopping App - an app drives more conversions and repeat purchases for your business",
+        view_app_descrip: "Explore Shopping App",
+        shopping_title: "Shopping App"
+      }
     },
+
     computed: {
       isMini() {
         switch (this.$vuetify.breakpoint.name) {
@@ -62,16 +68,6 @@ export default {
       },
       styleComputed() {
         return this.isMini ? {'height': '820px'} : {} ;
-      }
-    },
-
-
-    data() {
-      return{
-        title: "Convert your store into a mobile app",
-        description: "Shopping App - an app drives more conversions and repeat purchases for your business",
-        view_app_descrip: "Explore Shopping App",
-        shopping_title: "Shopping App"
       }
     },
 
