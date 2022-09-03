@@ -8,6 +8,8 @@
       <LandingComponent />
       <!-- Elevate -->
       <Elevate />
+      <!-- How Customer -->
+      <HowCustomer />
       
     </v-main>
 
@@ -18,6 +20,7 @@
 import Header from './components/Header';
 import LandingComponent from './components/LandingComponent';
 import Elevate from './components/Elevate';
+import HowCustomer from './components/HowCustomer';
 
 export default {
   name: 'App',
@@ -25,7 +28,8 @@ export default {
   components: {
     Header,
     LandingComponent,
-    Elevate
+    Elevate,
+    HowCustomer
   },
 
 };
