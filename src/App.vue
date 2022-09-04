@@ -10,7 +10,9 @@
       <Elevate />
       <!-- How Customer -->
       <HowCustomer />
-      
+      <!-- Feedback -->
+      <Feedback />
+
     </v-main>
 
   </v-app>
@@ -21,6 +23,7 @@ import Header from './components/Header';
 import LandingComponent from './components/LandingComponent';
 import Elevate from './components/Elevate';
 import HowCustomer from './components/HowCustomer';
+import Feedback from './components/Feedback';
 
 export default {
   name: 'App',
@@ -29,7 +32,8 @@ export default {
     Header,
     LandingComponent,
     Elevate,
-    HowCustomer
+    HowCustomer,
+    Feedback
   },
 
 };
