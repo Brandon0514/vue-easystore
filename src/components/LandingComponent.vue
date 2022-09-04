@@ -22,7 +22,7 @@
             </v-col>
         </v-row>
 
-        <h2 class="intro-text white--text mt-5">{{title}}</h2>
+        <h1 class="intro-text white--text mt-5">{{title}}</h1>
         <p class="description-text white--text mt-5">{{description}}</p>
         <v-btn color="secondary" class="white--text mr--10 mt-5 pa-8 btn_title_app btn_view_app text-transform-none">{{view_app_descrip}}</v-btn>
       </v-col>

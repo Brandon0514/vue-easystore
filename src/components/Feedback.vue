@@ -20,13 +20,13 @@
                   <meta property="og:description" :content="feedback_item.description" />
 
                   <v-col class="card-actions">
-                    <v-avatar size="70px">
+                    <v-avatar size="100px" class="mb-2">
                       <img alt="Avatar" :src="require('../assets/' + feedback_item.profile_pic)">
                     </v-avatar>
 
-                    <v-card-title class="justify-center">{{ feedback_item.name }}</v-card-title>
+                    <v-card-title class="justify-center pa-0">{{ feedback_item.name }}</v-card-title>
                     <meta name="og:title" :content="feedback_item.name">
-                    <v-card-title class="justify-center">{{ feedback_item.website }}</v-card-title>
+                    <v-card-title class="justify-center pa-0 pb-2">{{ feedback_item.website }}</v-card-title>
                     <meta property="og:url" :content="feedback_item.website" />
                   </v-col>
     

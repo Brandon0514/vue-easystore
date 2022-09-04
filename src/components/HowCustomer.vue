@@ -19,9 +19,9 @@
                   <v-layout align-center>
                     <v-img :src="require('../assets/' + howcustomer_item.image)" contain width="450px" height="500px"></v-img>
                   </v-layout>
-                  <!-- <v-img v-if="howcustomer_item.order !== 1 && howcustomer_item.order !== 4" src="@/assets/arrow.png" contain width="20px"></v-img> -->
-                  <v-card-title class="justify-center"> {{howcustomer_item.title}}</v-card-title>
-                  <v-card-subtitle class="justify-center">{{howcustomer_item.description}}</v-card-subtitle>
+                  <v-img v-if="isMini === 'xl' && (howcustomer_item.order !== 1 && howcustomer_item.order !== 4)" src="@/assets/icon/arrow.png" contain width="20px"/>
+                  <v-img v-if="isMini === 'lg' && (howcustomer_item.order !== 1 && howcustomer_item.order !== 3 && howcustomer_item.order !== 5)" src="@/assets/icon/arrow.png" contain width="20px"/>
+                  <v-subheader class="text-h5 justify-center"> {{howcustomer_item.title}}</v-subheader>
                 </v-card>
               </v-sheet>
             </v-col>
@@ -51,6 +51,12 @@ export default {
         ],
         howcustomer_title: 'How Customers Buy From You on Shopping App'
       }
+    },
+
+    computed: {
+      isMini() {
+        return this.$vuetify.breakpoint.name
+      },
     },
 
 };

@@ -13,11 +13,11 @@
           no-gutters
         >
           <v-col align="center" v-for="(elevate_item, index) in elevate_list" :key="index">
-              <v-card elevation="0" width="410px" height="600px">
+              <v-card elevation="0" width="450px" height="600px">
                 <v-layout align-center>
                   <v-img :src="require('../assets/' + elevate_item.image)" contain width="300px"></v-img>
                 </v-layout>
-                <v-card-title class="justify-center"> {{elevate_item.title}}</v-card-title>
+                <v-card-title class="justify-center pa-0"> {{elevate_item.title}}</v-card-title>
                 <meta name="og:title" :content="elevate_item.title">
                 <v-card-subtitle class="justify-center">{{elevate_item.description}}</v-card-subtitle>
                 <meta property="og:description" :content="elevate_item.description" />
