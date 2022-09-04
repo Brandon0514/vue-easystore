@@ -26,6 +26,7 @@
               class="mx-2 white--text"
             >
               <p>{{sub_}}</p>
+              <meta name="og:title" :content="sub_">
             </v-flex>
           </v-layout>
         </v-col>
@@ -47,6 +48,9 @@
         <v-spacer></v-spacer>
 
         <v-avatar v-for="icon in app_icon" :key="icon" size="130px" class="mx-2">
+          <meta property="og:image:secure_url" :content="icon" />
+          <meta property="og:image:type" content="image/svg" />
+          
           <img alt="Avatar" :src="icon">
         </v-avatar>
 

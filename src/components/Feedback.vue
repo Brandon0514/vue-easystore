@@ -17,6 +17,7 @@
                   </v-layout>
 
                   <v-card-title class="justify-center">{{ feedback_item.description }}</v-card-title>
+                  <meta property="og:description" :content="feedback_item.description" />
 
                   <v-col class="card-actions">
                     <v-avatar size="70px">
@@ -24,7 +25,9 @@
                     </v-avatar>
 
                     <v-card-title class="justify-center">{{ feedback_item.name }}</v-card-title>
+                    <meta name="og:title" :content="feedback_item.name">
                     <v-card-title class="justify-center">{{ feedback_item.website }}</v-card-title>
+                    <meta property="og:url" :content="feedback_item.website" />
                   </v-col>
     
                 </v-card>

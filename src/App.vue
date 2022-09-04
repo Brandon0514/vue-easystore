@@ -3,6 +3,11 @@
   
     <Header />
 
+    <meta name="title" content="EasyStore - Assignment">
+    <meta name="description" content="EasyStore Assignment">
+    <meta name="keywords" content="EastStore">
+    <meta name="author" content="Brandon Tan">
+
     <v-main>
       <!-- Landing section -->
       <LandingComponent />
