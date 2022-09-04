@@ -48,23 +48,23 @@ export default {
     return {
       feedback_list: [
         {
-          logo: 'cocoonya.jpg', profile_pic: 'cocoonya-profile.jpg',
+          logo: 'feedback/cocoonya.jpg', profile_pic: 'feedback/cocoonya-profile.jpg',
           description: '"When we started HERMANAS, we use WhatsApp and Instagram. It\'s hard to keep track thousands of messages. EasyStore cut us a significant amount of time and easy to manage."',
           name: 'Jue, founder of HARMANAS', website: 'wwww.hermanas.my'
         },
         {
-          logo: 'bengbeng.png', profile_pic: 'bengbeng-profile.jpg',
+          logo: 'feedback/bengbeng.png', profile_pic: 'feedback/bengbeng-profile.jpg',
           description: '"Simple, user-friendly interface. Recommended for beginners. The best Malaysian alternative of Shopify. able to build a real business."',
           name: 'Jun Qi, Co-founder of BengBeng', website: 'wwww.bengbengsourdough.com'
         },
         {
-          logo: 'hermanas.jpg', profile_pic: 'hermanas-profile.jpg',
+          logo: 'feedback/hermanas.jpg', profile_pic: 'feedback/hermanas-profile.jpg',
           description: '"It helps our customer to place order easily and for us to manage our store peacefully. No hassle, it\'s time efficient too! With just a few clicks you can twirl your business smoothly."',
           name: 'Sonya, Founder of COCO ONYA', website: 'wwww.thecocoonya.com'
         },
       ],
       feedback_title: 'What They Think About EasyStore',
-      card_background: 'testimonial-bg.svg'
+      card_background: 'card/testimonial-bg.svg'
     }
   },
 

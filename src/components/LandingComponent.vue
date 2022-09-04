@@ -9,7 +9,7 @@
         <v-row>
           <v-col lg="12" class="mt-1">
               <v-btn color="black" class="py-8 mr-5 btn_view_app">
-                <v-img src="@/assets/cart-icon.png" alt=""
+                <v-img src="@/assets/icon/cart-icon.png" alt=""
                   contain
                   width="50px"
                 >
@@ -29,7 +29,7 @@
 
       <!-- right side -->
       <v-col lg="6">
-        <v-img src="@/assets/Artboard-8.png" alt=""
+        <v-img src="@/assets/mobile/Artboard-8.png" alt=""
           contain   
           width="100%"
         >

@@ -43,11 +43,11 @@ export default {
     data() {
       return{
         howcustomer_list:[
-          {image: 'howcustomer1.png', title:'1. Search your business by entering store URL or scan QR code', order: 1},
-          {image: 'howcustomer2.png', title:'2. Browse your store', order: 2},
-          {image: 'howcustomer3.png', title:'3. Add products to bag', order: 3},
-          {image: 'howcustomer4.png', title:'4. Login account to checkout', order: 4},
-          {image: 'howcustomer5.png', title:'5. Get notified of orders at any time', order: 5}
+          {image: 'howcustomer/howcustomer1.png', title:'1. Search your business by entering store URL or scan QR code', order: 1},
+          {image: 'howcustomer/howcustomer2.png', title:'2. Browse your store', order: 2},
+          {image: 'howcustomer/howcustomer3.png', title:'3. Add products to bag', order: 3},
+          {image: 'howcustomer/howcustomer4.png', title:'4. Login account to checkout', order: 4},
+          {image: 'howcustomer/howcustomer5.png', title:'5. Get notified of orders at any time', order: 5}
         ],
         howcustomer_title: 'How Customers Buy From You on Shopping App'
       }

@@ -2,7 +2,7 @@
 
   <v-app-bar :style="{ ...styleComputed }" app color="primary" light elevation-on-scroll elevation="0">
 
-    <v-img src="@/assets/easystore-logo-horizontal-white.png" alt=""
+    <v-img src="@/assets/logo.png" alt=""
       contain   
       height="70%"
       width="200px"

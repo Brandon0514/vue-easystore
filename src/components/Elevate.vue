@@ -38,9 +38,9 @@ export default {
     data() {
       return{
         elevate_list:[
-          {image: 'elevate1.png', title:'Optimized sales for shopping experience', description:'Create a direct mobile channel to provide shoppers with quick access to general info, shopping catalogue and manage loyalty program right at their fingertips'},
-          {image: 'elevate2.png', title:'Outplay your competitor', description:'Having a mobile app for a small business is becoming less common these days, and this is where you can gain an advantage over your competition.'},
-          {image: 'elevate3.png', title:'Increase engagement', description:'Simply accessible and get even closer to a direct interaction and stay connected to your customers wherever they go.'},
+          {image: 'elevate/elevate1.png', title:'Optimized sales for shopping experience', description:'Create a direct mobile channel to provide shoppers with quick access to general info, shopping catalogue and manage loyalty program right at their fingertips'},
+          {image: 'elevate/elevate2.png', title:'Outplay your competitor', description:'Having a mobile app for a small business is becoming less common these days, and this is where you can gain an advantage over your competition.'},
+          {image: 'elevate/elevate3.png', title:'Increase engagement', description:'Simply accessible and get even closer to a direct interaction and stay connected to your customers wherever they go.'},
         ],
         elevate_title: 'Elevate Your Business to the Next Level With Mobile App'
       }
