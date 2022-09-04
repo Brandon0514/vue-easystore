@@ -1,6 +1,6 @@
 <template>
 
-<v-container style="margin-top: 150px; margin-bottom: 100px;">
+<v-container style="margin-top: 150px; margin-bottom: 50px;">
   <v-row justify="center">
     <v-col lg="12" class="text-center">
       <v-subheader class="text-h4 justify-center">{{elevate_title}}</v-subheader>

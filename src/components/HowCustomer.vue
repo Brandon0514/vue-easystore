@@ -1,35 +1,37 @@
 <template>
 
-<v-container class="my-16">
-  <v-row justify="center">
-    <v-col lg="12" class="text-center">
-      <v-subheader class="text-h4 justify-center">{{howcustomer_title}}</v-subheader>
+<div class="howcustomer_section">
+  <v-container  style="padding-top: 150px; padding-bottom: 50px;">
+    <v-row justify="center">
+      <v-col lg="12" class="text-center">
+        <v-subheader class="text-h4 justify-center">{{howcustomer_title}}</v-subheader>
 
-      <v-container
-        class="bg-surface-variant mb-6"
-      >
-        <v-row
-          align="center"
-          no-gutters
+        <v-container
+          class="bg-surface-variant mb-6"
         >
-          <v-col v-for="(howcustomer_item, index) in howcustomer_list" :key="index">
-            <v-sheet class="pa-2 ma-2">
-              <v-card elevation="0">
-                <v-layout align-center>
-                  <v-img :src="require('../assets/' + howcustomer_item.image)" contain width="450px" height="500px"></v-img>
-                </v-layout>
-                <!-- <v-img v-if="howcustomer_item.order !== 1 && howcustomer_item.order !== 4" src="@/assets/arrow.png" contain width="20px"></v-img> -->
-                <v-card-title class="justify-center"> {{howcustomer_item.title}}</v-card-title>
-                <v-card-subtitle class="justify-center">{{howcustomer_item.description}}</v-card-subtitle>
-              </v-card>
-            </v-sheet>
-          </v-col>
-        </v-row>
-      </v-container>
+          <v-row
+            align="center"
+            no-gutters
+          >
+            <v-col v-for="(howcustomer_item, index) in howcustomer_list" :key="index">
+              <v-sheet class="pa-2 ma-2" elevation="0" outlined color="grey" >
+                <v-card elevation="0" color="grey">
+                  <v-layout align-center>
+                    <v-img :src="require('../assets/' + howcustomer_item.image)" contain width="450px" height="500px"></v-img>
+                  </v-layout>
+                  <!-- <v-img v-if="howcustomer_item.order !== 1 && howcustomer_item.order !== 4" src="@/assets/arrow.png" contain width="20px"></v-img> -->
+                  <v-card-title class="justify-center"> {{howcustomer_item.title}}</v-card-title>
+                  <v-card-subtitle class="justify-center">{{howcustomer_item.description}}</v-card-subtitle>
+                </v-card>
+              </v-sheet>
+            </v-col>
+          </v-row>
+        </v-container>
 
-    </v-col>
-  </v-row>
-</v-container>
+      </v-col>
+    </v-row>
+  </v-container>
+</div>
 
 </template>
 
@@ -56,6 +58,9 @@ export default {
 
 <style scoped>
 
+  div.howcustomer_section {
+    background-color:  var(--v-grey-base);
+  }
 
 </style>
   
