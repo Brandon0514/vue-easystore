@@ -14,8 +14,9 @@
       <Feedback />
       <!-- StartSelling -->
       <StartSelling />
-      
     </v-main>
+
+    <Footer />
 
   </v-app>
 </template>
@@ -27,6 +28,7 @@ import Elevate from './components/Elevate';
 import HowCustomer from './components/HowCustomer';
 import Feedback from './components/Feedback';
 import StartSelling from './components/StartSelling';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -37,7 +39,8 @@ export default {
     Elevate,
     HowCustomer,
     Feedback,
-    StartSelling
+    StartSelling,
+    Footer
   },
 
 };
