@@ -80,8 +80,4 @@ export default {
 </script>
 
 <style>
-  .header_title {
-    color: rgb(255, 255, 255);
-    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Roboto, Arial, sans-serif;
-  }
 </style>

@@ -72,18 +72,5 @@ export default {
 </script>
 
 <style scoped>
-  div.feedback_section {
-    background-color: var(--v-primary-base);
-  }
-
-  .rounded-card{
-      border-radius: 3%;
-  }
-
-  .card-actions {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 </style>
   

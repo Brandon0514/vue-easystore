@@ -57,10 +57,5 @@ export default {
 </script>
 
 <style scoped>
-
-  div.howcustomer_section {
-    background-color:  var(--v-grey-base);
-  }
-
 </style>
   

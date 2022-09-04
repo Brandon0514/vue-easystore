@@ -6,22 +6,20 @@
       <v-subheader class="text-h4 justify-center">{{elevate_title}}</v-subheader>
 
       <v-container
-        class="bg-surface-variant mb-6"
+        class="bg-surface-variant mb-6 mt-15"
       >
         <v-row
           align="center"
           no-gutters
         >
-          <v-col v-for="(elevate_item, index) in elevate_list" :key="index">
-            <v-sheet class="pa-2 ma-2">
-              <v-card elevation="0">
+          <v-col align="center" v-for="(elevate_item, index) in elevate_list" :key="index">
+              <v-card elevation="0" width="400px" height="600px">
                 <v-layout align-center>
                   <v-img :src="require('../assets/' + elevate_item.image)" contain width="300px"></v-img>
                 </v-layout>
                 <v-card-title class="justify-center"> {{elevate_item.title}}</v-card-title>
                 <v-card-subtitle class="justify-center">{{elevate_item.description}}</v-card-subtitle>
               </v-card>
-            </v-sheet>
           </v-col>
         </v-row>
       </v-container>
@@ -52,6 +50,4 @@ export default {
 </script>
 
 <style scoped>
-
-
 </style>

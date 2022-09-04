@@ -32,19 +32,5 @@ export default {
 </script>
 
 <style scoped>
-
-  button.btn_title_app.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light {
-    font-size: 20px;
-    font-weight: bolder;
-  }
-
-  button.btn_view_app.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light{
-    border-radius: 10px;
-  }
-
-  .text-transform-none{
-    text-transform: unset !important;
-  }
-
 </style>
   

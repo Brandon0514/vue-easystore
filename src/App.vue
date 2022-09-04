@@ -44,5 +44,8 @@ export default {
 </script>
 
 <style>
- 
+   @import '~scss/base/font.scss';
+   @import '~scss/base/card.scss';
+   @import '~scss/base/background.scss';
+   @import '~scss/base/button.scss';
 </style>
