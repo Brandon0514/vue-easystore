@@ -38,7 +38,7 @@
 <script>
 
 export default {
-    name: '', 
+    name: 'HowCustomer', 
 
     data() {
       return{

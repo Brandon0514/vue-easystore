@@ -12,7 +12,9 @@
       <HowCustomer />
       <!-- Feedback -->
       <Feedback />
-
+      <!-- StartSelling -->
+      <StartSelling />
+      
     </v-main>
 
   </v-app>
@@ -24,6 +26,7 @@ import LandingComponent from './components/LandingComponent';
 import Elevate from './components/Elevate';
 import HowCustomer from './components/HowCustomer';
 import Feedback from './components/Feedback';
+import StartSelling from './components/StartSelling';
 
 export default {
   name: 'App',
@@ -33,7 +36,8 @@ export default {
     LandingComponent,
     Elevate,
     HowCustomer,
-    Feedback
+    Feedback,
+    StartSelling
   },
 
 };

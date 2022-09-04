@@ -35,7 +35,7 @@
 <script>
 
 export default {
-    name: '', 
+    name: 'Elevate', 
 
     data() {
       return{
